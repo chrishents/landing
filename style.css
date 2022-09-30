@@ -1,0 +1,55 @@
+body {
+	font-family: 'Overpass', sans-serif;
+	background: url(background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	justify-content: center;
+	display: flex;
+}
+
+header > h1 {
+	background-color: white;
+	padding: 30px 50px;
+	border-radius: 90px;
+	font-weight: bold;
+}
+
+.custom {
+	font-size: 1.5em;
+	background-color: #FFA500;
+	border-color: #FFA500;
+	color: black;
+	padding: 15px 30px;
+	border-radius: 80px;
+	border-color: transparent;
+	font-weight: bold;
+	margin-top: 30px;
+	transition: all 0.5s;
+}
+
+.custom:hover {
+	transform: scale(1.1);
+	background-color: #ff981a;
+}
+
+.line {
+	background-color: white !important;
+	border-color: white !important;
+	width: 300px;
+	border-width: 5px;
+	margin: auto;
+	border-radius: 15px;
+	animation: start 1s ease-in-out;
+}
+
+@keyframes start {
+	0% {
+		width: 0px;
+	}
+
+	100% {
+		width: 300px;
+	}
+}
